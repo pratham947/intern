@@ -36,25 +36,26 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="relative md:col-span-6 ">
+      <div className="relative md:col-span-6">
+        <Image className="absolute right-20" src={"/ring.png"} width={500} height={500} alt="ring"/>
         <Image
           className="absolute z-30"
-          width={400}
-          height={400}
+          width={450}
+          height={450}
           src={"/phone1.png"}
           alt="phone1"
         />
         <Image
           className="absolute z-20 top-[50px] left-[100px]"
-          width={400}
-          height={400}
+          width={450}
+          height={450}
           src={"/phone1.png"}
           alt="phone1"
         />
         <Image
           className="absolute z-10 top-[90px] left-[200px]"
-          width={400}
-          height={400}
+          width={450}
+          height={450}
           src={"/phone1.png"}
           alt="phone1"
         />
