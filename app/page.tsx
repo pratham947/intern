@@ -6,6 +6,7 @@ import Image from "next/image";
 import Testimonial from "@/components/Testimonial";
 import FreqentlyAsked from "@/components/FreqentlyAsked";
 import Banner from "@/components/Banner";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Testimonial/>
       <FreqentlyAsked/>
       <Banner/>
+      <Footer/>
     </main>
   );
 }
